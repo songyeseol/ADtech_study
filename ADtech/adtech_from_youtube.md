@@ -152,7 +152,7 @@
 
 
 
-## SSP (Supply side platform) >> 아니 그럼 얘네는 도대체 어디서 광고를 가져오는건데? dsp는 다른거자나 
+## SSP (Supply side platform)
 : 매체를 대상으로 하는 플랫폼 
 
 ### 매체가 중요하게 생각하는 것 
@@ -227,7 +227,7 @@
 - 정산
 
 
-### AD Network에서 중요한 것 >> 근데 이 사람은 SSP, DSP가 ADNETWORK의 종류라는 식으로 말하는데..ㅅㅂ
+### AD Network에서 중요한 것 
 = 결국 효율!
 
 - 매체: 높은 eCPM과 FILL-IN RATE
