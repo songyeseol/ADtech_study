@@ -1,4 +1,4 @@
-# Top 10 Things You Need to Know about Programmatic but were too Afraid to Ask
+# Top 10 Things You Need to Know about Programmatic but were too Afraid to Ask (180702)
 
 1) Programmatic is more than RTB.
 - RTB가 프로그래매틱의 다가 아니다.
