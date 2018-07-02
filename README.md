@@ -1,7 +1,7 @@
 # ADtech_study (2018.06~)
-Repo for studying ADTech
-Making one commit a day (TIL-KAKAO)
-To comprehend ADTech industry(RTB, DMP, SSP, DSP, ADexchange, ADnetwork...)
+- Repo for studying ADTech  
+- Making one commit a day (TIL-KAKAO)  
+- To comprehend ADTech industry(RTB, DMP, SSP, DSP, ADexchange, ADnetwork...)  
 
 ### 2018.06
 - IAB OpenRTB API Specification Version 2.5 
