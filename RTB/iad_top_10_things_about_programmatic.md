@@ -1,5 +1,7 @@
 # Top 10 Things You Need to Know about Programmatic but were too Afraid to Ask (180702-)
- 
+
+[link](http://www.iab.com/top-10-things-you-need-to-know-about-programmatic/)
+
 ### 1) Programmatic is more than RTB.
 - RTB가 프로그래매틱의 다가 아니다.
 - 프로그래매틱은 짜끄래기 인벤토리만을 위한 것이 아니다. 
