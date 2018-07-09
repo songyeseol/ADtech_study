@@ -10,4 +10,4 @@
 
 ### 2018.07
 - IAB "Top 10 Things You Need to Know about Programmatic but were too Afraid to Ask" [note](https://github.com/songyeseol/ADtech_study/blob/master/RTB/iad_top_10_things_about_programmatic.md)
-- ADEdge "10 things you need to know now about programmatic buying" [note](https://github.com/songyeseol/ADtech_study/blob/master/RTB/adedge_10_things_you_need_to_know_now_about_programmatic_buying.md)
+- ADAge "10 things you need to know now about programmatic buying" [note](https://github.com/songyeseol/ADtech_study/blob/master/RTB/adedge_10_things_you_need_to_know_now_about_programmatic_buying.md)
