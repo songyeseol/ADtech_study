@@ -1,4 +1,4 @@
-# 10 THINGS YOU NEED TO KNOW NOW ABOUT PROGRAMMATIC BUYING (ADEdge)
+# 10 THINGS YOU NEED TO KNOW NOW ABOUT PROGRAMMATIC BUYING (ADge)
 
 [article link](http://adage.com/article/print-edition/10-things-programmatic-buying/298811/)- 2015
 
