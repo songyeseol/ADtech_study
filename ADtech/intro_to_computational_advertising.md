@@ -12,7 +12,7 @@
 
 #### - Compututational Advertising 
 
-```Find the "best match" bewtween a given user in a give context and a suitable advvertisement```  
+```Find the "best match" bewtween a given user in a give context and a suitable advertisement```  
 주어진 컨텍스트에서 특정 유저와 적절한 광고 사이의 최적의 매치를 찾는 것  
 
 - 컨텍스트 : 검색 광고, 배너 광고, 모바일, 비디오, 신문 등  
