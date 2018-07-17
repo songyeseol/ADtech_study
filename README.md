@@ -5,7 +5,7 @@
 
 ### Official Ariticles/Guides
 
- Publisher | Title | Article Link | Note/Summary Link | Complete 
+ Publisher | Title | Article | Note | Complete 
 -----------|-------|--------------|-------------------|----------
 IAB | OpenRTB API Specification Version 2.5 | [Link](https://www.iab.com/wp-content/uploads/2016/03/OpenRTB-API-Specification-Version-2-5-FINAL.pdf) | [note](https://github.com/songyeseol/ADtech_study/blob/master/RTB/RTB_basics.md) | o
 IAB | Top 10 Things You Need to Know about Programmatic but were too Afraid to Ask | [Link](https://www.iab.com/news/top-10-things-you-need-to-know-about-programmatic/) | [note](https://github.com/songyeseol/ADtech_study/blob/master/RTB/iad_top_10_things_about_programmatic.md) | o
