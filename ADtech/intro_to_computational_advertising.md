@@ -7,10 +7,10 @@
 ## Lecture 1: Introduction  
 
 
-### [ Overview ]
+### 1) Overview 
 
 
-#### - Compututational Advertising 
+#### [ Compututational Advertising ]
 
 ```Find the "best match" bewtween a given user in a give context and a suitable advertisement```  
 주어진 컨텍스트에서 특정 유저와 적절한 광고 사이의 최적의 매치를 찾는 것  
@@ -18,7 +18,7 @@
 - 컨텍스트 예시: 검색 광고, 배너 광고, 모바일, 비디오, 신문 등  
 
 
-#### - 참여자
+#### [ 참여자 ]
 
 - 퍼블리셔 
 - 광고주
@@ -27,7 +27,7 @@
 
 
 
-#### - Key Message 
+#### [ Key Message ]
 
 - CA란 "BEST MATCH"를 찾는 것
 - CA 시장은 매우 큼 
@@ -36,22 +36,22 @@
 - 새로운 적용 도메인과 새로운 기술이 매일 생겨나는 중 
 
 
-### [ 전통적인 광고 ] 
+### 2) 전통적인 광고 
 
-#### - 브랜드 광고 
+#### [ 브랜드 광고 ]
 
 - 목표: 보기좋은 이미지를 생산하는 것 
 
-#### - 다이렉트 마케팅 
+#### [ 다이렉트 마케팅 ]
 
 - "직접적인 반응"을 유도하는 광고
 - 구매, 구독, 투표, 기부 등
 
 
 
-### [ CA의 필요성 ] 
+### 3) CA의 필요성 
 
-#### - Computational은 이미 여러 도메인에 적용되는 중 
+#### [ Computational은 이미 여러 도메인에 적용되는 중 ]
 
 - linguistics, biology, chemistry, mechanics, economics...
 
@@ -61,7 +61,7 @@
 
 
 
-#### - computational의 필요성 
+#### [ computational의 필요성 ]
 
 - 전통적으로는
 	- 상대적으로 적은 지면 - 잡지, 빌보드, 신분, handbill, TV 등 
@@ -78,26 +78,26 @@
 	- 성과 측정 가능 
 
 
-#### - CA의 상대적 어려움 
+#### [ CA의 상대적 어려움 ]
 
 
 1) 시장과 거래를 디자인하고, 유저, 광고주, 매체에게 돌아가는 가치를 극대화하는 것
 2) 이 프로세스를 받쳐줄 인프라를 구축하는 것 
 
 
-#### - 주요한 해결과제 
+#### [ 주요한 해결과제 ]
 
 1) Represenation : **효과적이고 효율적으로** 유저, 컨텍스트, 광고를 대표하는 것
 2) Definition : 시장의 한계와 목표를 해결하기 위해 수학적 최적화 문제를 정의하는 것 
 3) Solution : **효과적이고 효율적으로** 최적화 문제를 해결하는 것 
 
 
-#### - CA와 시장 디자인
+#### [ CA와 시장 디자인 ]
 
 SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 
 
-### [ 시장의 기회 ] 
+### 4) 시장의 기회 
 
 - 온라인 광고의 시장규모와 변화추이? 
 - 한국시장? 세계시장?
@@ -107,7 +107,7 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 - 가장 지배적인 플레이어는? 
 
 
-#### - 왜 온라인에 돈을 쓰는가? 
+#### [ 왜 온라인에 돈을 쓰는가? ]
 
 - 마케터들은 온라인 광고가 가장 안전하다고 생각
 	- 성과 측정 가능
@@ -116,7 +116,7 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 - 다른 미디어에 마케팅 예산을 투자하는 것 보다 온라인에 투자하는 것이 더욱 믿음직스러움  
 
 
-#### - 웹 광고의 가치 
+#### [ 웹 광고의 가치 ]
 
 광고는 웹의 거대한 생태계를 서포트하는 역할  
 
@@ -128,13 +128,24 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 (광고는 유저에게 직/간접적인 가치를 제공하고 있음)  
 
 
-### [ CA 산업의 랜드스케이프 ] 
+### 5) CA 산업의 랜드스케이프 
 
 
-#### - 시장에 대한 기초 개념 
+#### [ 시장에 대한 기초 개념 ]
 
-- 광고주들은 어떻게 과금되는가? 
-	- 
+**CPM** : 천개 노출에 대한 비용  
+- 주로 배너광고에 사용 (브랜드 광고)
+- 미리 금액 지불 가능 (개런티드 딜리버리 Guaranteed Delivery)
+
+**CPC** : 클릭당 비용  
+- 주로 textual 광고에 사용 
+
+**CPT/CPA** : 거래/액션당 비용 (= referral fee 혹은 affiliate fee)  
+- 주로 쇼핑, 여행업체
+- 하지만 요즘에는 textual 광고에도 쓰임 (위험완화)  
+
+
+
 
 
 
