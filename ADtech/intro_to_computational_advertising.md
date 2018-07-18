@@ -168,9 +168,9 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 	- 3) hybrid : 위 두개를 결합  
 
 
-# 6) textual ad
+## 6) textual ad
 
-## [ textual ad ] 
+### [ textual ad ] 
 
 1) 검색 키워드 광고 = **"스폰서 서치"** (aka 키워드 광고, paid search, adwords...)  
 - 광고주는 "bid phrase" 선택 
@@ -183,7 +183,7 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 -> textual ad는 information retrieval과 연관이 높음  
 
 
-## [ textual ad의 역사 ] 
+### [ textual ad의 역사 ] 
 
 1) 1990년 후반, 알타비스타 "스폰서 서치" 모델 개발
 	- 서치 엔진 유저들에게 거절당함
@@ -197,9 +197,9 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
  
 
 
-# 7) ad selection
+## 7) ad selection
 
-## [ 광고 선택의 목표 ]
+### [ 광고 선택의 목표 ]
 
 - 각 참여자는 효용을 느끼는 부분이 다름  
 	- 광고주: ROI와 Volume
@@ -209,7 +209,7 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 
 - **모두의 효용을 높일 수 있도록 최적화 필요**
 
-## [ textual ad selection ] 
+### [ textual ad selection ] 
 
 1) 스폰서 서치 (sponsored search) > 쿼리를 bid phrase에 **매치**
 
@@ -220,12 +220,12 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 3) content match > 페이지에서 bid phrase를 잡아냄
 - 컨텍스트, 시맨틱, 연관성 잡아내기 어려움 
 
-## [ textual ad schema ] 
+### [ textual ad schema ] 
 
 광고주 > account > 캠페인 > ad group > creative / bid phrase
 
 
-## [ 정보로서의 광고 ] 
+### [ 정보로서의 광고 ] 
 
 ```최적의 텍스츄얼 광고를 찾는 것은 여러 가지 모순되는 효용 기능을 가진 정보 검색 문제이다.```
 
