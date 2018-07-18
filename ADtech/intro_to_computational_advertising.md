@@ -144,66 +144,62 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 - 주로 쇼핑, 여행업체
 - 하지만 요즘에는 textual 광고에도 쓰임 (위험완화)  
 
-### [ 배너 광고 ]
+### [ 배너 광고 ] 
 
-두 가지 종류의 온라인 배너 광고  
+> 두 가지 종류의 온라인 배너 광고  
 
 1) **(보장형)** 개런티 딜리버리 (GD)
 
-representation
-- 타게팅 요소를 기반으로 계약된 거래 (age, income, location...)
-- 각 거래는 1) 기간, 2) 노출양이 정해져있음  
+- representation
+	- 타게팅 요소를 기반으로 계약된 거래 (age, income, location...)
+	- 각 거래는 1) 기간, 2) 노출양이 정해져있음  
 
-definition of the optimization problem 
-- 문제: 계약금액 / 트래픽 예측 / 활성화된 거래에 대한 노출 분배  
+- definition of the optimization problem 
+	- 문제: 계약금액 / 트래픽 예측 / 활성화된 거래에 대한 노출 분배  
+
 
 2) **(성과형)** 논-개런티 딜리버리 (NGD) = performance graphical ads  
-
-성과에 따른 과금 - CPM / CPC / CPA  
-
-optimization problem definition 
-- = CTR 극대화  
-
-representation  
-- 1) Reactive : 여러 지면에 게재된 특정 광고의 CTR을 관찰 > 가장 높은 CTR을 보이는 지면에 광고 노출 
-- 2) Predictive : 관련된 광고, 랜딩 페이지, 광고주 정보를 사용하여 광고에 대한 여러 피쳐들을 생성 > 페이지와 광고 피쳐를 기반으로 성과 예측 
-- 3) hybrid : 위 두개를 결합  
+- 성과에 따른 과금 - CPM / CPC / CPA  
+- optimization problem definition 
+	- = CTR 극대화  
+- representation  
+	- 1) Reactive : 여러 지면에 게재된 특정 광고의 CTR을 관찰 > 가장 높은 CTR을 보이는 지면에 광고 노출 
+	- 2) Predictive : 관련된 광고, 랜딩 페이지, 광고주 정보를 사용하여 광고에 대한 여러 피쳐들을 생성 > 페이지와 광고 피쳐를 기반으로 성과 예측 
+	- 3) hybrid : 위 두개를 결합  
 
 
-## 6) textual ad
+# 6) textual ad
 
-### [ textual ad ]
+## [ textual ad ] 
 
-1) 검색 키워드 광고 = **"스폰서 서치"**  
-(aka 키워드 광고, paid search, adwords...)  
-	- 광고주는 "bid phrase" 선택 
-		- = 디스플레이를 할 쿼리
-	- **"advanced match"** 옵션도 존재 
-		- = 연관된 쿼리에 디스플레이 
+1) 검색 키워드 광고 = **"스폰서 서치"** (aka 키워드 광고, paid search, adwords...)  
+- 광고주는 "bid phrase" 선택 
+	- = 디스플레이를 할 쿼리
+- **"advanced match"** 옵션도 존재 
+	- = 연관된 쿼리에 디스플레이 
 
-2) 웹페이지의 컨텐츠에 따른 광고 = **"컨텐츠 매치"**
-(aka 컨텍스트 광고, adsense)  
+2) 웹페이지의 컨텐츠에 따른 광고 = **"컨텐츠 매치"** (aka 컨텍스트 광고, adsense)  
 
--> textual ad는 검색과 information retrieval과 연관이 높음  
+-> textual ad는 information retrieval과 연관이 높음  
 
 
-### [ textual ad의 역사 ]
+## [ textual ad의 역사 ] 
 
 1) 1990년 후반, 알타비스타 "스폰서 서치" 모델 개발
 	- 서치 엔진 유저들에게 거절당함
 2) goto.com(나중에 overture가 인수)가 "유료광고에 대한 서치 엔진" 개발
-	- 상업적 관심사를 가진 유저들이 이 엔진으로 감 
+	- 상업적 관심사를 가진 유저들이 이 엔진으로 감
 	- 돈이 모임
-3) 구글이 "스폰서 서치" 모델 다시 개발 
+3) 구글이 "스폰서 서치" 모델 다시 개발
 	- 성공적
-4) 광고주들이 충분한 볼륨을 갖지 못함 
+4) 광고주들이 충분한 볼륨을 갖지 못함
 	- 좀더 많은 노출을 위해 "컨텐츠 매치" 등장
  
 
 
-## 7) ad selection
+# 7) ad selection
 
-### [ 광고 선택의 목표 ]
+## [ 광고 선택의 목표 ]
 
 - 각 참여자는 효용을 느끼는 부분이 다름  
 	- 광고주: ROI와 Volume
@@ -213,7 +209,7 @@ representation
 
 - **모두의 효용을 높일 수 있도록 최적화 필요**
 
-### [ textual ad selection ]
+## [ textual ad selection ] 
 
 1) 스폰서 서치 (sponsored search) > 쿼리를 bid phrase에 **매치**
 
@@ -224,12 +220,12 @@ representation
 3) content match > 페이지에서 bid phrase를 잡아냄
 - 컨텍스트, 시맨틱, 연관성 잡아내기 어려움 
 
-### [ textual ad schema ]
+## [ textual ad schema ] 
 
 광고주 > account > 캠페인 > ad group > creative / bid phrase
 
 
-### [ 정보로서의 광고 ]
+## [ 정보로서의 광고 ] 
 
 ```최적의 텍스츄얼 광고를 찾는 것은 여러 가지 모순되는 효용 기능을 가진 정보 검색 문제이다.```
 
