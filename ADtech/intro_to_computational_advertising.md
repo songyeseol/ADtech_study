@@ -334,8 +334,14 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 	- 최고가격 제시한 사람이 이김 
 	- 경락자가 제시한 금액 지불 
 2) second-price sealed bid auction (Vickrey auction)
+	- 최고가밍봉호가경매와 경매방식을 동일
+	- 두번째로 높은 비딩금액을 경락자가 지불 
 3) open ascending-bid auction (English auction)
-4) open descending-bid auction (Dutch auction) 
+	- 경재진행자가 점차적으로 금액을 높임
+	- 가장 마지막까지 남아있는 사람이 경락자
+4) open descending-bid auction (Dutch auction)
+	- 경매진행자가 점차적으로 금액을 낮춤 
+	- 첫번째로 콜을 부른 참여자가 경락자 
 
 
 
