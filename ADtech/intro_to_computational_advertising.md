@@ -23,7 +23,7 @@
 - 퍼블리셔 
 - 광고주
 - 유저
-- + 매치 메이커
+- "매치 메이커"
 
 
 
@@ -87,9 +87,12 @@
 
 ### [ 주요한 해결과제 ]
 
-1) Represenation of user/context/ads: **효과적이고 효율적으로** 유저, 컨텍스트, 광고를 대표하는 것
-2) Definition of optimization problem: 시장의 한계와 목표를 해결하기 위해 수학적 최적화 문제를 정의하는 것 
-3) efficient and effective Solution: **효과적이고 효율적으로** 최적화 문제를 해결하는 것 
+- 1) Represenation of user/context/ads
+	- **효과적이고 효율적으로** 유저, 컨텍스트, 광고를 대표하는 것
+- 2) Definition of optimization problem
+	- 시장의 한계와 목표를 해결하기 위해 수학적 최적화 문제를 정의하는 것 
+- 3) efficient and effective Solution:
+	- **효과적이고 효율적으로** 최적화 문제를 해결하는 것 
 
 
 ### [ CA와 시장 디자인 ]
@@ -148,51 +151,49 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 
 > 두 가지 종류의 온라인 배너 광고  
 
-1) **(보장형)** 개런티 딜리버리 (GD)
-
-- representation
-	- 타게팅 요소를 기반으로 계약된 거래 (age, income, location...)
-	- 각 거래는 1) 기간, 2) 노출양이 정해져있음  
-
-- definition of the optimization problem 
-	- 문제: 계약금액 / 트래픽 예측 / 활성화된 거래에 대한 노출 분배  
+- 1) **(보장형)** 개런티 딜리버리 (GD)
+	- representation
+		- 타게팅 요소를 기반으로 계약된 거래 (age, income, location...)
+		- 각 거래는 1) 기간, 2) 노출양이 정해져있음  
+	- definition of the optimization problem 
+		- 문제: 계약금액 / 트래픽 예측 / 활성화된 거래에 대한 노출 분배  
 
 
-2) **(성과형)** 논-개런티 딜리버리 (NGD) = performance graphical ads  
-- 성과에 따른 과금 - CPM / CPC / CPA  
-- optimization problem definition 
-	- = CTR 극대화  
-- representation  
-	- 1) Reactive : 여러 지면에 게재된 특정 광고의 CTR을 관찰 > 가장 높은 CTR을 보이는 지면에 광고 노출 
-	- 2) Predictive : 관련된 광고, 랜딩 페이지, 광고주 정보를 사용하여 광고에 대한 여러 피쳐들을 생성 > 페이지와 광고 피쳐를 기반으로 성과 예측 
-	- 3) hybrid : 위 두개를 결합  
-
+- 2) **(성과형)** 논-개런티 딜리버리 (NGD) = performance graphical ads  
+	- 성과에 따른 과금 - CPM / CPC / CPA  
+	- optimization problem definition 
+		- = CTR 극대화  
+	- representation  
+		- 1) Reactive : 여러 지면에 게재된 특정 광고의 CTR을 관찰 > 가장 높은 CTR을 보이는 지면에 광고 노출 
+		- 2) Predictive : 관련된 광고, 랜딩 페이지, 광고주 정보를 사용하여 광고에 대한 여러 피쳐들을 생성 > 페이지와 광고 피쳐를 기반으로 성과 예측 
+		- 3) hybrid : 위 두개를 결합  
+	
 
 ## 6) textual ad
 
 ### [ textual ad ] 
 
-1) 검색 키워드 광고 = **"스폰서 서치"** (aka 키워드 광고, paid search, adwords...)  
-- 광고주는 "bid phrase" 선택 
-	- = 디스플레이를 할 쿼리
-- **"advanced match"** 옵션도 존재 
-	- = 연관된 쿼리에 디스플레이 
+- 1) 검색 키워드 광고 = **"스폰서 서치"** (aka 키워드 광고, paid search, adwords...)  
+	- 광고주는 "bid phrase" 선택 
+		- = 디스플레이를 할 쿼리
+	- **"advanced match"** 옵션도 존재 
+		- = 연관된 쿼리에 디스플레이 
 
-2) 웹페이지의 컨텐츠에 따른 광고 = **"컨텐츠 매치"** (aka 컨텍스트 광고, adsense)  
+- 2) 웹페이지의 컨텐츠에 따른 광고 = **"컨텐츠 매치"** (aka 컨텍스트 광고, adsense)  
 
 -> textual ad는 information retrieval과 연관이 높음  
 
 
 ### [ textual ad의 역사 ] 
 
-1) 1990년 후반, 알타비스타 "스폰서 서치" 모델 개발
+- 1) 1990년 후반, 알타비스타 "스폰서 서치" 모델 개발
 	- 서치 엔진 유저들에게 거절당함
-2) goto.com(나중에 overture가 인수)가 "유료광고에 대한 서치 엔진" 개발
+- 2) goto.com(나중에 overture가 인수)가 "유료광고에 대한 서치 엔진" 개발
 	- 상업적 관심사를 가진 유저들이 이 엔진으로 감
 	- 돈이 모임
-3) 구글이 "스폰서 서치" 모델 다시 개발
+- 3) 구글이 "스폰서 서치" 모델 다시 개발
 	- 성공적
-4) 광고주들이 충분한 볼륨을 갖지 못함
+- 4) 광고주들이 충분한 볼륨을 갖지 못함
 	- 좀더 많은 노출을 위해 "컨텐츠 매치" 등장
  
 
@@ -211,14 +212,14 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 
 ### [ textual ad selection ] 
 
-1) 스폰서 서치 (sponsored search) > 쿼리를 bid phrase에 **매치**
+- 1) 스폰서 서치 (sponsored search) > 쿼리를 bid phrase에 **매치**
 
-2) advanced match > 쿼리를 bid phrase로 **번역**
-- 컨텍스트, 연관성을 잡아내기 어려움 
-- 과금이 잘못될 수 있음 
+- 2) advanced match > 쿼리를 bid phrase로 **번역**
+	- 컨텍스트, 연관성을 잡아내기 어려움 
+	- 과금이 잘못될 수 있음 
 
-3) content match > 페이지에서 bid phrase를 잡아냄
-- 컨텍스트, 시맨틱, 연관성 잡아내기 어려움 
+- 3) content match > 페이지에서 bid phrase를 잡아냄
+	- 컨텍스트, 시맨틱, 연관성 잡아내기 어려움 
 
 ### [ textual ad schema ] 
 
