@@ -327,7 +327,7 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 	- 게임의 플레이어가 타인이 취하는 전략을 기초로 자신의 이익이 최대가 되도록 행동하고 또한 이것이 모든 플레이어에게 공통될 때, 이 균형상태를 내시균형
 
 
-### [ 경매 ] 
+### [ 경매 종류 ] 
 
 
 1) first-price sealed bid (최고가밀봉호가경매)
@@ -344,6 +344,26 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 	- 경매진행자가 점차적으로 금액을 낮춤 
 	- 첫번째로 콜을 부른 참여자가 경락자 
 
+### [ 스폰서 검색 경매 ] 
+
+- 서치 엔진 
+	- 광고 지면을 판매하기 위해 키워드 경매를 진행
+- 광고주
+	- 한 클릭당 지불할 의향이 있는 금액을 비딩 
+- 서치엔진은 내림차순으로 광고들을 정렬
+	- 비딩 금액이 광고 위치의 "key determinant" 
+	- CTR은 부수적인 determinant
+	
+
+### [ 인터넷 광고 시장의 특이점 ] 
+
+- market design 측면 
+	- 비딩이 끊임없이 일어남 
+- featured of the enviroment 측면 (쉽게 변하지 않는 특성)
+	- 서치엔진은 효과적으로 "flows"를 판매 (click/hour)
+	- 사용되지 않는 capacity는 낭비됨
+	- 하지만 유저 입장에서 효용성은 과도한 광고랑 반비례 
+	
 
 
 
