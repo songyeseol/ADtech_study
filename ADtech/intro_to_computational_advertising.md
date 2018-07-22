@@ -364,6 +364,27 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 	- 사용되지 않는 capacity는 낭비됨
 	- 하지만 유저 입장에서 효용성은 과도한 광고랑 반비례 
 	
+### [ 과금방식 ] 
+
+- 광고주 입장
+	- transaction = unit 
+	- CPT / CPA 선호
+- 서치엔진 입장
+	- 노출 = unit
+	- CPM 선호
+- 중간
+	- 클릭 = unit
+	- CPC 선호 
+
+- 이 세가지 모델 모두 많이 쓰임
+- 검색광고에서는 CPC가 가장 많이 쓰임 
+
+
+### [ 인터넷 광고 초기 ]
+
+- 1994년 초기 시장에서는,
+	- 노출당 과금방식
+	
 
 
 
