@@ -410,7 +410,7 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 		- 그러면 다른 1명은 최저가보다 1원 높은 11원으로 입찰. 다시 경쟁 시작. 
 
 		
-### [ 일반화된 이차가격 경매 (Generalized Second-Price Auction ] 
+### [ 일반화된 이차가격 경매 (Generalized Second-Price Auction) ] 
 
 - 2002년에 구글에 의해서 도입
 - 야후/오버츄어 등 GSP로 전환
@@ -429,8 +429,7 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 		- 만약 a가 105원을 입찰했다면, 5원의 손해를 보게됨. 
 		- 따라서 모두가 적절한 가치로 경매에 입찰하게 됨. 
 		
-		
-### [ 
+	
 		
 
 		
