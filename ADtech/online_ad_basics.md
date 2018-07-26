@@ -1,4 +1,5 @@
 # BASICS OF Online Advertisement
+여러 인터넷 글 참고 
 
 ## 광고의 3 요소
 1) 광고주
