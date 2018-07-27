@@ -13,7 +13,7 @@ ADAge | 10 things you need to know now about programmatic buying | [Link](http:/
 Digiday | WTF is programmatic? | [Link](https://digiday.com/wtfprogrammaticbible/) | [note](https://github.com/songyeseol/ADtech_study/blob/master/RTB/digiday_wtf_is_programmatic_advertising.md) | o
 Standford University | Intro to Computational Advertising | [Link](https://web.stanford.edu/class/msande239/#lecture-handouts) | [note](https://github.com/songyeseol/ADtech_study/blob/master/ADtech/intro_to_computational_advertising.md) |  
 
-### Random Notes
+### Random Notes 
 
 Title | Article Link | Note/Summary Link 
 -------|--------------|-------------------
