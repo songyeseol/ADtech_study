@@ -564,6 +564,130 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 
 
 
+### [ 왜 long tail이 있는가? ] 
+
+가설  
+1) 대부분 사람들은 usual 쿼리를 입력한다; 소수가 unusual을 입력
+2) 대부분의 사람들이 usual 쿼리를 입력한다; 그리고 그 사람들이 unusual쿼리도 가끔 입력한다
+	- Goel 2009 연구가 두번째 가정을 증명
+	- 대부분의 사람들은 popular 상품, niche 상품 모두 소비하는 경향이 있음
+	- 하지만 이 비율? 정도는 다름
+	
+
+
+##  2. TEXTUAL AD 
+
+광고주 > 어카운트 > 캠페인 > 애드 그룹 > 크리에이티브 + 비드 프레이즈 
+
+
+
+### [ 광고 쿼리 관계 ] 
+
+- 반응형 쿼리 responsive : 쿼리의 의도를 직접적으로 충족시킴
+	- e.g. Realgood golf clubs
+	- ad: Buy realgood golf clubs cheap!
+- incidental: 유저의 의도가 쿼리에 직접적으로 명시되지 않음 
+	- 연관쿼리 related : local golf course special
+	- 경쟁쿼리 competitive : sureshot golf
+	- 연관쿼리 associated : rolex watches for golfers 
+	- 스팸쿼리 spam : vitamins 
+
+### [ 랜딩페이지 종류 ] 
+
+- 카테고리 : 랜딩페이지가 쿼리의 큰 카테고리를 나타냄
+- 서치 트랜스퍼 : 광고주 웹페이지 내에서 서치 결과를 나타냄
+	- 상품 리스트
+	- 서치 aggregation
+- 홈페이지
+- 기타 (프로모션 등) 
+
+## 3. ad selection
+
+- 매치 종류
+	- exact : 쿼리와 비즈 프레이즈가 정확히 매치
+		- 광고주는 특정 쿼리에 특정 양을 비딩 
+		- 단수형, 오타, re-order, 노이즈 = 모두 같은 쿼리 (쿼리 정규화)
+	- advanced : 광고 플랫폼이 주어진 쿼리에 적합한 광고를 찾아줌
+		- 광고주는 특정 쿼리에 비딩을 하는 것이 아니라 광고주가 관심있을 만한 쿼리에 비딩을 하게 됨 
+		- 대부분의 트래픽은 bid가 없다. 
+		- 광고주에게 비드 프레이즈는 중요하지 않다. 전환율이 높으면 되는 것! 
+		- 어떻게 연관된 트래픽을 전부 커버할 수 있을까? SE의 챌린지 
+- 실행방법
+	- 데이터베이스 lookup
+		- : 쿼리 q에 대해서 광고는 record, 비드 프레이즈는 attribute
+	- 유사도 서치
+		- : 쿼리 q에 대해 광고는 ad corpus안의 document, 비드 프레이즈는 meta-datum 
+- 2 phases of  selection
+	- ad retrieval
+		- : ad corpus 전체에서 가장 viable한 후보를 뽑음
+	- ad reordering
+		- : 후보들을 가지고 더 정교한 scoring function으로 순서를 정함 
+		- retrieval score 뿐만 아니라 비딩액을 고려하여 순서를 정함 
+- reordering 종류 
+	- 반응형
+		- : 클릭테이터를 활용
+	- 예측형
+		- : 광고 지면 위치에 쌓인 데이터를 활용하여 성과를 예측 
+		- 광고의 다양한 피쳐들을 추출 > 각 피쳐들의 가중치를 찾아냄 > 예측에 활용 
+		- 광고에 대해 충분한 정보가 있다면 reactive, 아니라면 predictive 사용 
+- 사용되는 데이터(주로 예측형에) 
+	- unsupervised
+	- click data
+		- 볼륨이 매우 크기때문에 샘플링 필요할수도
+		- 바이너리 (클릭 or no click)
+		- CTR은 주로 매우 낮음 
+		- 사람들은 광고가 연관성이 높아도 클릭하지 않음 
+		- 노이즈 많음 
+	- relevance data
+		- Editorial 리소스가 많이 필요함
+		- 에디터들은 연관성에 대한 확실하고 정밀한 기준이 필요함 
+		- 에디터들은 모든 도메인과 유저 니즈를 이해할 수 없음 
+
+### [ 광고주의 딜레마 ] 
+
+- broad 쿼리? vs. 컨셉 쿼리? 
+	- 먄악 내 광고가 "good prices on seattle hotels"라면, 
+	- seattle이라는 단어를 가진 쿼리에 비드를 할 것 
+	- 하지만 alaska cruises start point는 나에게 유의미한 쿼리가 될 수 있고,
+	- seattle's best coffee chicago는 나에게 무의미한 쿼리가 될 수도.
+	- 따라서 시애틀을 여행 목적지로 나타내는 쿼리에 비딩하는 것이 중요
+
+## 4. query rewriting
+
+### [ 유저 세션 ] 
+
+- 유저는 task를 완수하기위해 SE사용
+- task는 ( 쿼리들 입력 + 브라우징) 의 단계를 거침 
+- 쿼리를 재입력하는 것을 보고 쿼리 스트림을 알 수 있음
+- 재입력에 적합한 쿼리를 어떻게 파악하는가?
+	- 유저가 직접 입력한 재입력 쿼리를 관찰 (유저의 지식을 활용해랏!)
+	- 재입력 쿼리의 가치를 정하기 위해 해당 쿼리의 다양한 인스턴스를 관찰 
+
+![image](https://user-images.githubusercontent.com/28600272/43365055-9a8d3dac-9361-11e8-9e71-48c79dc9b33e.png)
+
+
+
+### [ 재입력 쿼리 종류 ] 
+
+- swich tasks
+- insertions
+- substitutions
+	- 많은 substitution이 많은 유저에 의해서 반복됨 
+- deletions
+- spell correction
+- mixture
+- specialization
+- generalization
+- others
+
+
+### [ 해결과제 ]
+
+- "세션 바운더리"를 찾는 것이 문제 
+	- time period 
+	- 쿼리 유사도나 레이블 세트를 기반으로 계산 
+- 재입력 쿼리의 종류 
+- 재입력 쿼리 파악하려면 높은 빈도를 보여야만 함 
 
 
 
