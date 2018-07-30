@@ -34,7 +34,7 @@
 - 광고는 정보의 한 형태 (a form of information)
 	- 최적의 광고를 찾는 것은 information retrieval 문제의 한 종류
 - 새로운 적용 도메인과 새로운 기술이 매일 생겨나는 중 
-
+ 
 
 ## 2) 전통적인 광고 
 
