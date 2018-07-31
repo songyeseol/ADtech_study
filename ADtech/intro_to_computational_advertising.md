@@ -690,6 +690,8 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 - 재입력 쿼리 파악하려면 높은 빈도를 보여야만 함 
 
 
+## clicks graphs and random walks for query rewrite generation
+
 
 
 
@@ -698,6 +700,45 @@ SYSTEMS > COMPUTATIONAL ADVERTISING > MARKET DESIGN
 
 
 # Lecture 4: Sponsored search 2
+
+### [ contexxtual advertising (content match) ] 
+
+- 3rd party 웹페이지의 텍스츄얼 광고
+- 웹페이지의 부분 지면을 유료광고로 채움 
+- 작은 사이트든 큰 사이트든 CM 수익으로 인해 존재할 수 있음
+- 구글의 Adsense / 마이크로소프트의 ContentAds
+
+### [ how does it work? ] 
+
+- 두가지 접근 방식
+	- 매체에 의해 만들어진 페이지에 애드 네트워크가 공급하는 광고로 채움  (e.g. XML feed) 
+	- 다이나믹 광고 loading 
+
+### [ 검색광고와의 차이점 ] 
+
+- 거의 100% 커버리지
+- 애드네트워크의 작은 역할 / 매체의 큰 역할 
+	- 애드네트워크 : 어떤 광고를?
+	- 매체 : 얼마나 / 어디어 / 어떻게 디스플레이 할 것인가
+- 웹페이지의 콘텐츠를 기반으로 광고를 선택
+	- 텍스트가 더 많음
+	- less focused
+	- less intentional 
+	
+### [ CM의 해결과제 ] 
+
+- 마진이 매우 작음
+- CTR이 매우 낮음
+	- CTR 분산이 매우 큼 
+- 낮은 전환률
+	- less of a clear intent
+- 큰 볼륨 
+	- 하루에 많은 페이지 뷰
+- ad 위치선정이 매우 어려움 
+	- search만큼 intentional하지 않음 
+- 낮은 비딩액
+- 낮은 share revenue with the publisher
+- 유저 트랙킹은 가능함 ! 장점 !
 
 # Lecture 5: Display advertising 1
 
